@@ -1,0 +1,144 @@
+
+.about-page {
+  min-height: 100vh;
+  padding: 40px 8%; 
+  /*background: linear-gradient(135deg, #020408, #071d32);*/
+  background-color: #0f46a5;
+  color: #1e293b;
+}
+.about-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 35px;
+
+}
+.about-tag {
+  color: #e2daef;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.about-header h1 {
+  font-size: 38px;
+  margin: 10px 0;
+  color: rgb(190, 157, 222);
+}
+.about-header h1 span {
+  color: rgb(190, 157, 222);
+}
+.about-summary {
+  color: #f5f7f9;
+
+}
+.about-profile {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+
+  align-items: stretch;
+}
+.about-page {
+  min-height: 100vh;
+  padding: 20px 8%;
+  background-color: #0f46a5;
+  color: #1e293b;
+}
+.about-left,
+.about-right {
+  background: linear-gradient(135deg);
+  padding: 15px;
+ width: 60%;
+ height: 80%;
+   margin-left: 100px;
+  border: 1px solid #e2e8f0;
+ 
+}
+.about-left h2,
+.about-right h2 {
+  color: rgb(190, 157, 222);
+  margin-top: 0;
+}
+.about-left h3 {
+  color: rgb(190, 157, 222);
+}
+.about-left p {
+  line-height: 1.8;
+ color: rgb(235, 234, 237);
+}
+
+.about-info:last-child {
+  border-bottom: none;
+}
+.about-info span {
+  color: #cec1e4;
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-info p {
+  margin: 6px 0 0;
+  line-height: 1.6;
+  color: #e9f1fd;
+}
+.about-info a {
+  color: #e9f1fd;
+
+}
+.about-info a:hover {
+  color: #9d85c7;
+  text-decoration: underline;
+}
+.about-extra {
+  margin-top: 35px;
+}
+.about-extra > h2 {
+  text-align: center;
+  color: #312e81;
+  margin-bottom: 22px;
+}
+.about-extra-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.about-extra-card {
+  background: white;
+  padding: 22px;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease;
+}
+.about-extra-card:hover {
+  transform: translateY(-4px);
+}
+.about-extra-card h3 {
+  color: #efedf1;
+  margin-top: 0;
+}
+.about-extra-card p {
+  color: #e1e6ec;
+  
+}
+.about-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 11px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: 600;
+}
+.about-btn:hover {
+  background: #aa8dda;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 30px 5%;
+  }
+  .about-profile,
+  .about-extra-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-header h1 {
+    font-size: 32px;
+  }
+}

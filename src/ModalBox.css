@@ -1,0 +1,163 @@
+/*.modal{
+    display:relative;
+    width:20%;
+    height:30%;
+    font-size:19px;
+    font-family:sans-serif;
+    margin-left:40%;
+    margin-top: 2%;
+    border:2px solid;
+    padding:35px; 
+    text-align:center;
+    position:absolute;
+    background-color:lavender;
+    border-radius: 30px;
+    border-color: blueviolet;
+    text-align: center;
+    
+}
+
+.ok{
+    background-color: rgb(246, 190, 240);
+    height: 40px;
+    width:80px;
+    border-color: blueviolet;
+    font-size :19px;;
+    border-radius: 4px;
+}
+.confirm{
+    background-color: rgb(178, 233, 215);
+    border-color: blueviolet;
+    height:40px;
+    width: 80px;
+    border-radius:10px;
+    margin-left: 45%;
+    margin-top: 2%;
+    font-size: 17px;
+}
+.text{
+    margin-left: 45%;
+     margin-top: 2%;
+     font-size: 25px;
+}
+.xButton{
+    border:none;
+    background-color: white;
+    color: black;
+    width:3%;
+    margin-left:35%;
+    margin-top:3%;
+    font-size:20px;
+
+}
+.overlay{
+    min-height:100vh;
+    background:#151321;
+}
+.popup{
+    background-color: white;
+    width:40%;
+    height:30%;
+    margin:20%;
+    margin-left: 30%;
+}
+.img{
+    margin-top:60px;
+}*/
+/* Main Page */
+
+.mainPage {
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.confirm {
+    display: block;
+    background-color: rgb(178, 233, 215);
+    border: 2px solid blueviolet;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 30px auto;
+    font-size: 17px;
+    cursor: pointer;
+}
+/* Dark Background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+/* Popup Box */
+.popup {
+    position: relative;
+    width: 350px;
+    min-height: 400px;
+    background-color:rgb(200, 233, 243);
+    border-radius: 10px;
+    text-align: center;
+    padding: 35px 30px 45px;
+    box-sizing: border-box;
+}
+/* Close Button */
+.xButton {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+/* Image */
+.img {
+    width: 90%;
+    max-width: 500px;
+    height: 300px;
+    
+    margin: 25px auto 10px;
+    border-radius: 10px;
+}
+/* Heading */
+.popup h1 {
+    font-family: Arial;
+    font-size: 20px;
+    color: #000;
+}
+/* Description */
+.popup p {
+    font-family: Arial;
+    font-size: 15px;
+    color: #333;
+}
+.premium {
+    width: 70%;
+    height: 60px;
+    background-color: #4b72a5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
