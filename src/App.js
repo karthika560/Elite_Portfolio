@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-//import Spread from './Spread';
+ //import Spread from './Spread';
  //import  Header from './Header';
  //import ArrowFunction from './ArrowFunction';
  //import ObjectExample from './ObjectExample';
@@ -13,8 +13,8 @@ import './App.css';
  //import Manager from './Manager';
  //import Managament from './Management'
  //import Counter from './Counter'
-// import { BrowserRouter } from 'react-router-dom';
-// import Home_Task from './Task/Home_Task.js';
+ //import { BrowserRouter } from 'react-router-dom';
+ //import Home_Task from './Task/Home_Task.js';
 
 // //import GetData from './GetData';
 // //import ErrorHandling from './ErrorHandling'
